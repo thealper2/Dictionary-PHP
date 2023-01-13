@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>eLearn</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            
+            <video autoplay loop class="back-video" muted plays-inline>
+                <source src="media/video.mp4" type="video/mp4">
+            </video>
+
+            <nav>
+                <img src="media/logo.png" class="logo">
+                <ul class="nav-links">
+                    <li> <a href="index.html">ARA</a> </li>
+                    <li> <a href="hakkinda.html">HAKKINDA</a> </li>
+                    <li> <a href="database.php">DATABASE</a> </li>
+                    <li> <a href="">ILETISIM</a> </li>
+                    <li class="btn">KAYIT OL</li>
+                </ul>
+            </nav>
+
+            <div class="content" style="top: 50%; left:50%;">
+                <h1>Bilişim Sözlüğü</h1>
+                <form class="" action="dictionary.php" method="post">
+                    <input type="text" name="word" value="" placeholder="&#x270e; Kisaltma Ara">
+                    <button type="submit" name="search" value="Search">ARA</button>
+                </form>
+
+                <div class="category-list">
+                    <div class="category">
+                        <img src="media/coding.png">
+                        <p>Coding</p>
+                    </div>
+                    <div class="category">
+                        <img src="media/exercise.png">
+                        <p>Jobs</p>
+                    </div>
+                    <div class="category">
+                        <img src="media/guitar.png">
+                        <p>Music</p>
+                    </div>
+                    <div class="category">
+                        <img src="media/console.png">
+                        <p>Game Dev</p>
+                    </div>
+                    <div class="category">
+                        <img src="media/language.png">
+                        <p>Language</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="div1">
+            <form class="" action="dictionary.php" method="post">
+                <input type="text" name="word" value="" placeholder="Search Word"><br>
+                <input type="submit" name="search" value="Search">
+            </form>
+        </div>
+    </body>
+</html>
